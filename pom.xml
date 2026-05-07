@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://34.207.65.139:8081/repository/rocky-snapshot/</url>
+		    <url>http://44.211.38.81:8081/repository/rocky-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://34.207.65.139:8081/repository/rocky-release/</url>
+		    <url>http://44.211.38.81:8081/repository/rocky-release/</url>
 		</repository>
   	</distributionManagement>
     
