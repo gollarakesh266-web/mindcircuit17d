@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: fb-container
-        image: gollarakesh/dockrepo1:12
+        image: gollarakesh/dockrepo1:4
         ports:
         -containerPort: 8080
