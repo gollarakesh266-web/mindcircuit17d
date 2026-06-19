@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kubernetes Demo Application By Rakesh</title>
+<title>Kubernetes Demo Application By Golla Rakesh</title>
 </head>
 
 <body style="margin:0; font-family:Arial, Helvetica, sans-serif; background:linear-gradient(135deg,#0f172a,#1e293b); color:white;">
