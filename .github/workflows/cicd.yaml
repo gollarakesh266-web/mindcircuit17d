@@ -1,0 +1,26 @@
+name: build and deploy to tomcat
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_deploy_to_tomcat:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: code checkout
+        uses: actions/checkout@v4
+
+      - name: build using maven
+        run: mvn clean install
+
+      - name: Deploy to tomcat
+        run: |
+          WAR_FILE=$(ls target/*.war | head -n 1)
+          APP_NAME=myapp
+          curl -u "${{ secrets.TOMCAT_USERNAME }}:${{ secrets.TOMCAT_PASSWORD }}" \
+            --upload-file "$WAR_FILE" \
+            "https://${{ secrets.TOMCAT_HOSTNAME }}:8081/manager/text/deploy?path=/$APP_NAME&upload=true"
