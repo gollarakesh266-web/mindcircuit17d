@@ -14,7 +14,7 @@
 
             <div style="background:linear-gradient(135deg,#2563eb,#06b6d4); padding:40px; text-align:center;">
                 <h1 style="margin:0; font-size:42px; color:white;">
-                    🚀 Kubernetes Deployment Successful by Rakesh
+                     Kubernetes Deployment Successful by Rakesh 
                 </h1>
 
                 <p style="margin-top:15px; font-size:18px; color:#e0f2fe;">
@@ -37,23 +37,23 @@
                 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:15px; margin-top:30px;">
 
                     <div style="background:#f8fafc; padding:15px 25px; border-radius:10px; border-left:5px solid #f97316;">
-                        🐳 Docker
+                         Docker
                     </div>
 
                     <div style="background:#f8fafc; padding:15px 25px; border-radius:10px; border-left:5px solid #2563eb;">
-                        ☸ Kubernetes
+                         Kubernetes
                     </div>
 
                     <div style="background:#f8fafc; padding:15px 25px; border-radius:10px; border-left:5px solid #22c55e;">
-                        ⚙ Jenkins
+                         Jenkins
                     </div>
 
                     <div style="background:#f8fafc; padding:15px 25px; border-radius:10px; border-left:5px solid #ef4444;">
-                        🔒 Trivy
+                         Trivy
                     </div>
 
                     <div style="background:#f8fafc; padding:15px 25px; border-radius:10px; border-left:5px solid #8b5cf6;">
-                        🚀 ArgoCD
+                         ArgoCD
                     </div>
 
                 </div>
