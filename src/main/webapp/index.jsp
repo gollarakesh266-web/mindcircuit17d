@@ -14,7 +14,7 @@
 
             <div style="background:linear-gradient(135deg,#2563eb,#06b6d4); padding:40px; text-align:center;">
                 <h1 style="margin:0; font-size:42px; color:white;">
-                    🚀 Kubernetes Deployment Successful
+                    🚀 Kubernetes Deployment Successful by Rakesh
                 </h1>
 
                 <p style="margin-top:15px; font-size:18px; color:#e0f2fe;">
